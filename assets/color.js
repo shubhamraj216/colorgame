@@ -15,6 +15,7 @@ easy.addEventListener("click",function(){
     colors=getcolor(3);
     corrcolor=colors[Math.floor(Math.random() * 3)];
     rgb.textContent=corrcolor;
+	tex.textContent="";
     for(var i=0;i<6;i++)
 {if(colors[i])
     {square[i].style.background=colors[i];}
@@ -28,6 +29,7 @@ hard.addEventListener("click",function(){
     easy.classList.remove("cul");
     p=6;
     colors=getcolor(6);
+	tex.textContent="";
     corrcolor=colors[Math.floor(Math.random() * 6)];
     rgb.textContent=corrcolor;
     for(var i=0;i<6;i++)
