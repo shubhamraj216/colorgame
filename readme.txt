@@ -1,1 +1,1 @@
-A color guessing game where you would be provided with a rgb value. You just have to click on one of the color choices , that you think reflects that value.
+A color guessing game where you would be provided with a RGB value. You just have to click on one of the color choices , that you think reflects that value.
